@@ -1,1 +1,5 @@
 theme: jekyll-theme-slate
+
+# Permalink format for blog posts
+# this matches what Wordpress does, to prevent link rot
+permalink: /blog/:year/:month/:day/:title/
