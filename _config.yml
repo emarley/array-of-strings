@@ -4,6 +4,10 @@ theme: jekyll-theme-slate
 # this matches what Wordpress does, to prevent link rot
 permalink: /blog/:year/:month/:day/:title/
 
+plugins:
+  - jekyll-paginate-v2
+
+# Controls how many posts show up on the blog page
 pagination:
   enabled: true
   collection: 'posts'
