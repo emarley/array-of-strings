@@ -1,4 +1,4 @@
-# Decoding Decodable
+# Decodable
 
 > Simple things should be simple, complex things should be possible. – *Alan Kay*
 
@@ -19,7 +19,7 @@ Let's work with a concrete example. Perhaps you've gotten a mock-up from a desig
 
 It soothes my brain immensely to learn that there is a definition of "enough" contrast, backed by field research, the biology of how humans perceive light, and math! There's a single number to define the contrast between any two colors, and a grading scale for what numbers are good enough. Not only that, but there are websites for looking up these numbers, such as webaim.org, so we don't even have to do the math. 
 
-##FIXME: webaim screenshot goes here
+![Screenshot of WebAIM.org's color contrast checker with black and purple values](Decodable_WebAIM.png)
 Here's the contrast for black and [this particularly delightful shade of purple](https://gwendolyn.io/about/). This combination gets a triple-A rating when used for large text, but only a double-A rating for small text. These colors are fine together for titles, but it would be better to find a slightly higher contrast for paragraphs of text, if possible. 
 
 So, that's a nice accessibility tip, but we were talking about serializing data. Well, this website is in the cloud, and it has an API. If you add `&api` to the URL, instead of a webpage, the site serves up some JSON containing the same information. 
