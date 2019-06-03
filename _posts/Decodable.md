@@ -14,7 +14,7 @@ Converting data structures into streams is called "serializing" or "encoding". I
 
 Similarly, converting data back into a class, structure, or enum is called "deserializing" or "decoding". Your structure needs to conform to `Decodable` so that it can be reconstructed from `Data`.
 
-## FIXME: Gray Mockup Goes Here
+![Mockup of text in decreasing size and contrast](Decodable_grayMockup.png)
 Let's work with a concrete example. Perhaps you've gotten a mock-up from a designer that looks a little like this. It has some really prominent dark text for the title, and the subtitle is only a little smaller and slightly lighter gray. Then there's more text that's even smaller and even lighter. When I got a mock-up like this, I felt like I had to strain a bit to read it. So I worried that it might not be accessible to others. I'm not a designer, and I'm certainly not an accessibility expert, so I struggled with how to decide what was "enough" contrast, and how to help my designer agree with me.
 
 It soothes my brain immensely to learn that there is a definition of "enough" contrast, backed by field research, the biology of how humans perceive light, and math! There's a single number to define the contrast between any two colors, and a grading scale for what numbers are good enough. Not only that, but there are websites for looking up these numbers, such as webaim.org, so we don't even have to do the math. 
